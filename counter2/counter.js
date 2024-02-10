@@ -1,5 +1,5 @@
 (() => {
-    const $counter = document.getElementById('js-counter');
+    const $counter = document.getElementById("js-counter");
 
     const clickHandler = (e) => {
         const $targetButton = e.currentTarget;
@@ -11,7 +11,7 @@
         }
     }
 
-    for (let index = 0; index < document.getElementsByClassName('js-buttton').length; index++) {
-        document.getElementsByClassName('js-buttton')[index].addEventListener('click', (e) => clickHandler(e))
+    for (let index = 0; index < document.getElementsByClassName("js-button").length; index++) {
+        document.getElementsByClassName("js-button")[index].addEventListener("click", (e) => clickHandler(e))
     }
 })();
